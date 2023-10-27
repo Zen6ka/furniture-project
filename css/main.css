@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* @ Делает теги HTML5 на странице блочными */
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+:root {
+	--color-background: #374049;
+	--color-background-light: #C5B59D;
+	--color-background-pop-up:#F1F1F1;
+
+	--text-color: #374049;
+	--text-color-light: #FFFFFF;
+	--text-color-hover: #C5B59D;
+	--text-nav-hover: #C5B59D;
+
+	--color-light-button-section: #A38C64;
+
+	--color-dark-button:#374049;
+	--color-dark-button-hover: #505A64;
+	--color-dark-button-aсtive: #A38C64;
+
+	--color-light-button:#A38C64;
+	--color-light-button-hover: #C5B59D;
+	--color-light-button-aсtive: #8d7752;
+
+	--color-footer-section: #505A64;
+
+	--color-form-section: #A38C64;
+} 
+
+body {
+	
+	color: var(--text-color);
+	font-family: 'Arsenal', sans-serif;
+}
